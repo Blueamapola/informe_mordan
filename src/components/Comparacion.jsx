@@ -49,12 +49,12 @@ function Comparacion() {
                         <td className="border border-zinc-700 p-2">Sin plazo legal definido hoy · Ley 21.719 lo establecerá en 2026</td>
                         </tr>
                     <tr className="border border-zinc-700 p-2 text-left">
-                        <td className="border border-zinc-700 p-2">Banca/Finanzas</td>
+                        <td className="border border-zinc-700 p-2">Salud</td>
                         <td className="border border-zinc-700 p-2">3 horas si es PSE/OIV bajo Ley 21.663</td>
                         <td className="border border-zinc-700 p-2">Sin plazo para avisar a pacientes hoy · Ley 21.719 lo establecerá en 2026</td>
                         </tr>
                         <tr className="border border-zinc-700 p-2 text-left">
-                        <td className="border border-zinc-700 p-2">Banca/Finanzas</td>
+                        <td className="border border-zinc-700 p-2">Gobierno</td>
                         <td className="border border-zinc-700 p-2">3 horas (alerta) · 72 horas (actualización) · más reporte a CMF</td>
                         <td className="border border-zinc-700 p-2">Sin plazo de notificación a ciudadanos afectados</td>
                         </tr>
