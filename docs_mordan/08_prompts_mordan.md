@@ -1,6 +1,6 @@
 # Bitácora de uso de IA: Caso BancoEstado 2020
 
-Para este trabajo usé Claude (claude.ai) como herramienta principal y tambien usé el agente Copilot integrado en VS Code para completar el codigo rapidamente. Claude lo usé en dos etapas distintas: primero para investigar el caso y después para guiarme en la construcción de la página web en React. El agente tiene acceso al proyecto completo, lo que lo hace más eficiente que un chatbot externo para tareas de código puede leer los archivos abiertos y proponer cambios contextualizados directamente en el editor.Para este trabajo usé dos herramientas de IA: Claude (claude.ai) para resolver dudas conceptuales puntuales durante la investigación, y el agente Copilot integrado en VS Code para apoyarme en la construcción de los componentes React. En ningún caso generé el contenido completo con IA, la usé para aclarar conceptos que no entendía y para resolver errores de código.
+Para este trabajo usé Claude (claude.ai) como herramienta principal y tambien usé el agente Copilot integrado en VS Code para completar el codigo rapidamente. Claude lo usé en dos etapas distintas: primero para investigar el caso y después para guiarme en la construcción de la página web en React. El agente tiene acceso al proyecto completo, lo que lo hace más eficiente que un chatbot externo para tareas de código puede leer los archivos abiertos y proponer cambios contextualizados directamente en el editor.
 
 ---
 
@@ -44,7 +44,7 @@ Para este trabajo usé Claude (claude.ai) como herramienta principal y tambien u
 
 **Para qué se usó:** Identificar qué artículos de la Ley 21.459 aplican a cada acción, ya que no tenía experiencia leyendo leyes de delitos informáticos.
 
-**Qué se usó y qué no:** Los artículos aplicables me sirvieron como punto de partida. El análisis de por qué cada conducta encaja en cada artículo no se uso que dio la IA, no se uso
+**Qué se usó y qué no:** Los artículos aplicables me sirvieron como punto de partida. El análisis de por qué cada conducta encaja en cada artículo que dio la IA no se uso.
 
 ---
 
@@ -123,8 +123,3 @@ Los archivos markdown aparecen subidos juntos debido a un problema técnico: ten
 Usar IA en este trabajo me ayudó principalmente en dos cosas: entender conceptos legales que no había visto antes (como los artículos de la Ley 21.459 o los derechos ARCO), y aprender React desde cero en muy poco tiempo.
 
 Lo que aprendí es que la calidad de lo que obtienes depende directamente de qué tan bien entiendes el tema. Los prompts que funcionaron mejor fueron los que mencionaban el caso específico, las leyes exactas y los artículos concretos, no los genéricos. Eso me obligó a investigar primero para poder preguntar bien.
-
-
----
-
-*TI3034 — Fundamentos de Seguridad de la Información · INACAP Valparaíso · Otoño 2026*
