@@ -5,6 +5,7 @@ import MarcoNormativo from './components/Marco'
 import Delitos from './components/Delitos'
 import Comparacion from './components/Comparacion'
 import Responsabilidades from './components/Responsabilidades'
+import Datos from './components/Datos'
 function App() {
   const [seccionActiva, setSeccionActiva] = useState(window.location.hash.replace('#', '') || 'resumen')
   return (
@@ -39,6 +40,9 @@ function App() {
           <button onClick={() => { setSeccionActiva('responsabilidades'); window.location.hash = 'responsabilidades'; }} className={`py-3 px-4 text-sm font-medium border-b-2 transition-colors ${seccionActiva === 'responsabilidades' ? 'border-red-500 text-white' : 'border-transparent text-zinc-400 hover:text-white'}`}>
             Responsabilidades
           </button>
+          <button onClick={() => { setSeccionActiva('datos'); window.location.hash = 'datos'; }} className={`py-3 px-4 text-sm font-medium border-b-2 transition-colors ${seccionActiva === 'datos' ? 'border-red-500 text-white' : 'border-transparent text-zinc-400 hover:text-white'}`}>
+            Datos
+          </button>
         </div>
       </nav>
       <main className="flex-1 max-w-8xl mx-auto px-6 py-12">
@@ -47,6 +51,7 @@ function App() {
 {seccionActiva === 'delitos' && <Delitos />}
 {seccionActiva === 'comparacion' && <Comparacion />}
 {seccionActiva === 'responsabilidades' && <Responsabilidades />}
+{seccionActiva === 'datos' && <Datos />}
       </main>
 
       <footer className="bg-zinc-900 text-zinc-400 text-sm py-4 px-6">
