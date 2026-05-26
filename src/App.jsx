@@ -6,6 +6,7 @@ import Delitos from './components/Delitos'
 import Comparacion from './components/Comparacion'
 import Responsabilidades from './components/Responsabilidades'
 import Datos from './components/Datos'
+import Conclusiones from './components/Conclusiones'
 function App() {
   const [seccionActiva, setSeccionActiva] = useState(window.location.hash.replace('#', '') || 'resumen')
   return (
@@ -43,6 +44,9 @@ function App() {
           <button onClick={() => { setSeccionActiva('datos'); window.location.hash = 'datos'; }} className={`py-3 px-4 text-sm font-medium border-b-2 transition-colors ${seccionActiva === 'datos' ? 'border-red-500 text-white' : 'border-transparent text-zinc-400 hover:text-white'}`}>
             Datos
           </button>
+          <button onClick={() => { setSeccionActiva('conclusiones'); window.location.hash = 'conclusiones'; }} className={`py-3 px-4 text-sm font-medium border-b-2 transition-colors ${seccionActiva === 'conclusiones' ? 'border-red-500 text-white' : 'border-transparent text-zinc-400 hover:text-white'}`}>
+            Conclusiones
+          </button>
         </div>
       </nav>
       <main className="flex-1 max-w-8xl mx-auto px-6 py-12">
@@ -52,6 +56,7 @@ function App() {
 {seccionActiva === 'comparacion' && <Comparacion />}
 {seccionActiva === 'responsabilidades' && <Responsabilidades />}
 {seccionActiva === 'datos' && <Datos />}
+{seccionActiva === 'conclusiones' && <Conclusiones />}
       </main>
 
       <footer className="bg-zinc-900 text-zinc-400 text-sm py-4 px-6">
